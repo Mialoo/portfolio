@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+footer {
+	color: white;
+	font-size: 13px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

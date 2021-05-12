@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="stylenavbar.css">
+		<link rel="stylesheet" type="text/css" href="stylecontact.css">
+		<link rel="stylesheet" type="text/css" href="stylefooter.css">
+	</head>
+	<body>
+		<nav>
+			<label for="menu-mobile" class="menu-mobile">Menu</label>
+			<input type="checkbox" id="menu-mobile" role="button ">
+			<ul>
+				<li class="accueil"><a href="index.html"> Accueil</a></li>
+				<li class="menu-cv"><a href="moncv.html">Mon CV</a>
+					<ul class="sous-menu">
+						<li><a href="#ancre1">Formations</a></li>
+						<li><a href="#ancre2">Expériences Professionnelles</a></li>
+						<li><a href="#ancre3">Langues et Informatique</a></li>
+					</ul></li>
+				<li class=mesprojets><a href="mesprojets.html">Mes projets</a></li>
+				<li class="contact"><a href="contact.html">Contact</a></li>
+			</ul>	
+		</nav>
+		<header>
+			<h1>Contactez moi</h1>
+		</header>
+		<form action="contact.php" method="get"> <!-- PHP à voir!!!-->
+			<select id="civilite" name=Genre required="Veuillez compléter ce champ.">
+				<option class="disable_select" value="Civilité">Civilité</option>
+				<option value="Madame">Madame</option>
+				<option value="Monsieur">Monsieur</option>
+				<option value="Autre">Autre</option>
+			</select>
+			<label for="nom">Nom :</label>
+			<input type="text" name="nom" placeholder="Votre nom" required="Veuillez compléter ce champ.">
+			<label for="nom">Prénom :</label>
+			<input type="text" name="nom" placeholder="Votre prénom">
+			<label for="mail">Mail :</label>
+			<input type="email" name="mail" placeholder="johndoe@exemple.com" required="Veuillez compléter ce champ.">
+			<textarea id="box" placeholder="Veuillez entrer votre message ici" required="Veuillez entrer votre message."></textarea>
+			<button class="envoyer" type="button">Envoyer</button>
+		</form>
+		<footer>
+			<p>Créé par A. Ramassamy 2021</p>
+		</footer>
+	</body>
+</html>

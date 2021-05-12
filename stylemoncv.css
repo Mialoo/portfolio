@@ -1,0 +1,120 @@
+ *{
+	margin: 0px;
+	padding: 0px;
+	/*reset*/
+}
+body {
+	background-color: #b7d5e3;
+}
+img {
+	width: 20%;
+	height : auto;
+	border-radius: 15px;
+}
+#photoid {
+	display: flex; /*éléments fils sur la même ligne*/
+	justify-content: space-around;  /*de l'espace est ajouté tout autour des éléments fils*/
+	align-items: center;
+	display: none;
+
+}
+#titre{
+	margin-top: 20px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-family: verdana, helvetica, "sans-serif";
+	font-weight: bold;
+	font-size: 30px;
+	color: #031a24;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration-line: underline;
+}
+.coordonnees {
+	margin: 40px;
+	padding: 58px;
+	font-weight: bold;
+	font-size: 20px;
+	border: 4px solid #031a24;
+	border-radius: 20px;
+	display: none;
+}
+h1 {
+	margin: 40px;
+	padding: 40px; /*ajoute de l'espace tout autour des titres*/
+	font-family: verdana, helvetica, "sans-serif";
+	font-weight: bold;
+	color: #031a24;	
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration-line: underline;
+	
+}
+div {
+	font-family: tahoma, helvetica, "sans-serif";
+	color: #063449;
+	background-color: #b7d5e3;
+}
+table {
+	background-color: #07364c; /*rend tout le fond du tableau bleu, utilisé pour remplir l'espace entre les bordures des cellules et du tableau*/
+	display: table;
+	justify-content: center;
+	border-collapse: separate !important;
+	width: 90%;
+	height: auto;
+	margin: 20px 50px;
+	table-layout: fixed;
+	border: 1px solid #07364c;
+	border-radius: 20px;
+}
+td {
+	background-color: #b7d5e3; /*remet le fond des cellules en bleu*/
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #07364c;
+	padding: 35px;
+	border-radius: 20px;
+}
+.vide {
+	border-style: none;
+}
+.description {
+	text-align: justify;
+	font-weight: lighter;
+}
+.texte{
+	margin: 20px;
+	padding: 15px;
+	/*décolle le texte du bord de la page*/
+}
+.competences{
+	margin: 20px;
+	padding: 20px; 
+	/*fait apparaître les puces*/
+}
+.lieu {
+	font-weight: lighter;
+	text-align: center;
+}
+.annees{
+	width: 22%;
+}
+.diplome{
+	width: 78%;
+}
+.poste{
+	width: 78%;
+}
+
+/*ci-dessous je rendrai ma page responsive*/
+
+@media all and (max-width: 480px){
+ 	
+} 
+@media (min-width: 480px) and (max-width: 780px){
+ 	
+}
+@media (min-width: 781px) and (max-width: 979px){
+
+}
